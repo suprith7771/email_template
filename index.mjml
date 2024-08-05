@@ -1,0 +1,64 @@
+<mjml>
+  <mj-head>
+    <mj-title>Quarterly Report</mj-title>
+    <mj-font name="Helvetica" href="https://fonts.googleapis.com/css?family=Helvetica"/>
+    <mj-attributes>
+      <mj-all font-family="Helvetica" />
+      <mj-section padding="0px"/>
+    </mj-attributes>
+    <mj-style>
+      .title { font-size: 20px; color: #333; }
+      .content { font-size: 16px; color: #555; }
+      .footer { font-size: 12px; color: #999; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color:='#f4f4f4'>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image width="600px" src="assets/top_img.png"></mj-image>
+      </mj-column>
+    </mj-section>
+
+
+     <mj-section background-color="#ffffff" padding="0 64px">
+      <mj-column>
+        <mj-text css-class="title">Company Name’s Quarterly Report</mj-text>
+        <mj-text css-class="content">We’re pleased to announce that the Lumber team completed the quarterly end balancing and we have finished filing tax returns.</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-divider border-color="#CCCCCC" border-width="1px" />
+
+    <mj-section background-color="#ffffff" padding="0 64px">
+      <mj-column>
+        <mj-text css-class="content">Company Tax Forms</mj-text>
+        <mj-text css-class="content">Your company's tax forms have been loaded into Lumber and can be viewed and downloaded by going to Payroll > Documents. The Company Tax Forms section of this page contains a copy of each return that is to be filed as well as any tax coupons that have been filed to-date. No action is required.</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#ffffff" padding="0 64px">
+      <mj-column>
+        <mj-text css-class="content">Variances Refunds and Collections</mj-text>
+        <mj-text css-class="content">As part of our regular quarter end filing process, Lumber has processed refunds and collections of outstanding tax liabilities from employers impacted by a variance. Lumber has created and saved a Reconciliation Recap pdf to your Company Tax Forms with details on all variances. To download this pdf, please navigate to Payroll > Documents.</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#ffffff" padding="0 64px">
+      <mj-column>
+        <mj-text css-class="footer">- The Lumber Team</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#ffffff" padding="0 64px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook"></mj-social-element>
+          <mj-social-element name="twitter"></mj-social-element>
+          <mj-social-element name="instagram"></mj-social-element>
+        </mj-social>
+        <mj-text css-class="footer">© 2024 Lumber</mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-section>
+  </mj-body>
+</mjml>
